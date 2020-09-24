@@ -1,3 +1,3 @@
 # fitness-tracker
 
-![](images/heroku issue.png)
+![](images/heroku%20issue.png)

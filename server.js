@@ -10,7 +10,13 @@ var PORT = process.env.PORT || 3000;
 var user = require("./models")
 
 app.use(express.json());
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/userdb", { useNewUrlParser: true });
+mongoose.connect(
+  process.env.MONGODB_URI || "mongodb://localhost/infinite-meadow", 
+  { useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+    useFindAndModify: false
+   });
 
 // ==================================
 

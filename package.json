@@ -19,7 +19,7 @@
   "homepage": "https://github.com/astoiano13/fitness-tracker#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.10.6",
+    "mongoose": "^5.10.7",
     "morgan": "^1.10.0"
   }
 }
